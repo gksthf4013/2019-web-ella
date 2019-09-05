@@ -2,6 +2,11 @@ html, body {
 	font-size: 14px;
 }
 
+/* 공통사항 */
+.tec {
+	text-align: center;
+}
+
 /* top-head */
 .top-head {
 	display: flex;
@@ -178,6 +183,7 @@ html, body {
 /* camp-wrap */
 .camp-wrap {
 	border-top: 1px solid #eee;
+	display: flex;
 }
 .camp-img {
 	position: relative;
@@ -212,9 +218,15 @@ html, body {
 	padding: 0.75rem 1rem;
 }
 /* best-wrap */
-.best-sel > .best-pag {
+.best-sel {
+	width: 35%;
+}
+
+.best-sel > .best-page {
 	color: #aaa;
 	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
 }
 .best-wrap {
 	display: flex;
@@ -222,11 +234,12 @@ html, body {
 .best-wrap > .best {
 	flex: 33.3333% 0 0;
 }
-.best-wrap > .best > .bes-icon {
+.best-wrap > .best .bes-icon {
 	border-radius: 50%;
 	border: 1px solid #555;
-	height: 50px;
-	width: 50px;
+	height: 20px;
+	width: 20px;
 	overflow: hidden;
 	text-align: center;
+	margin: 0.25rem;
 }
